@@ -1,0 +1,264 @@
+/* RESET
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: Roboto, Arial, sans-serif;
+} */
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+/* LANDING PAGE */
+/* NavBar */
+.menu {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    position: fixed;
+    width: 100%
+}
+.toggle-menu {
+    justify-content: flex-end;
+
+}
+.toggle-menu a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    color: rgb(0, 0, 0);
+}
+
+/* General */
+h1 {
+  font-size: 3rem;
+  color:black;
+  font-weight: bold;
+}
+p {
+  font-size: 3rem;
+}
+
+/* Top portion */
+.top-stuff {
+  color: rgb(255, 157, 157);
+  text-align: center;
+}
+.top-stuff p{
+  padding: 2rem 0;
+}
+.dev-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+}
+.top { 
+  background-image: linear-gradient(to bottom right, #faf8ff  ,  #ffdbd9);
+  padding: 10rem;
+}
+
+
+/* Middle */
+.middle {
+  background-image: linear-gradient(to bottom right, #faf2f2  ,  #ffffff);
+  display: flex;
+  justify-content: center;
+  padding: 12rem;
+  flex-direction: row;
+}
+.top-about {
+  font-size: 1.5rem;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+.top-about img {
+width: 50px;
+}
+.middle-img img{
+ width: 85px;
+}
+
+
+/* Bottom */
+.bottom {
+  background-image: linear-gradient(to bottom right , #faaca8, #ddd6f3 );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center;  */
+    /* width: 100%; */
+    padding: 6rem;
+}
+
+/* Testimonials */
+.test {
+  background-image: linear-gradient(to bottom right , #fdf4f4, #f5f5f5 );
+}
+.testimonials {
+  font-size: 2rem;
+  display: flex;
+}
+.htwo {
+  text-align: center;
+  padding-top: 3rem;
+  font-weight: bold;
+  font-size: 5rem;
+}
+.tst {
+  justify-content: space-evenly;
+  padding: 6rem;
+  flex-direction: row;
+  text-align: center;
+}
+.tst img{
+ padding-right: .7rem;
+}
+.ll {
+border-radius: 4%
+}
+
+
