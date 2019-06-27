@@ -247,13 +247,11 @@ width: 90px;
 
 /* Bottom */
 .bottom {
-  background-image: linear-gradient( #ffffff, #fdf9f9 );
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+   background-image: linear-gradient( #ffffff, #fdf9f9 );
     width: 100%;
     padding: 8rem;
 }
+
 .bottom h1, p{
   text-align: center;
 }
