@@ -1,0 +1,49 @@
+/* MEDIA QUERIES */
+
+
+@media (max-width: 600px) {
+    .menu a {
+      padding: 10px;
+    }
+
+    .top {
+        background-image: linear-gradient(to bottom right, #f4f0ff  ,  #ffdbd9);
+        border-bottom-left-radius:17%;
+        border-bottom-right-radius:17%;
+    }
+    .top-about:hover {
+        transform: none;
+        color: rgb(255, 157, 157)
+        }
+    .middle {
+        padding: 2rem;
+    }
+    .bottom {
+        padding: 2.5rem;
+        background-image: linear-gradient( #ffffff, #ffecec );
+    }
+    .bottom p{
+        font-size: 25px;
+    }
+    .htwo {
+        font-size: 3.8rem;
+        padding-bottom: 2rem;
+    }
+    .tst {
+       padding: 2rem 0;
+    }
+  .testimonials {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .signup img {
+    width: 100%;
+  }
+  .signup p  {
+      padding-bottom: 2rem;
+  }
+
+  } 
+/* end media queries */
+

@@ -211,16 +211,42 @@ p {
   padding: 10rem;
   border-bottom-left-radius:35%;
   border-bottom-right-radius:35%;
-
 }
-
+/* #wave {
+  position: relative;
+  height: 70px;
+  width: 600px;
+  background: #e0efe3;
+} */
+/* .top:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 340px;
+  height: 80px;
+  background-color: white;
+  right: -5px;
+  top: 40px;
+}
+.top:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 300px;
+  height: 70px;
+  background-color: #e0efe3;
+  left: 0;
+  top: 27px;
+} */
 
 /* Middle */
 .middle {
   /* background-image: linear-gradient(to bottom right, #faf2f2  ,  #ffffff); */
   display: flex;
   justify-content: center;
-  padding: 12rem;
+  padding: 7.5rem;
   flex-direction: row;
   /* background: #f5f5f5; */
 }
@@ -249,11 +275,12 @@ width: 90px;
 .bottom {
    background-image: linear-gradient( #ffffff, #fdf9f9 );
     width: 100%;
-    padding: 8rem;
+  padding: 5rem;
 }
 
 .bottom h1, p{
   text-align: center;
+  padding: 1rem 0;
 }
 
 
@@ -278,11 +305,16 @@ width: 90px;
   text-align: center;
 }
 .tst img{
- padding-right: .7rem;
+ padding-right: .7rem
 }
+
+/* .quotes img{
+  width: 2%;
+} */
 .ll {
 border-radius: 4%
 }
+
 /* sign up */
 .signup {
   display:flex;
@@ -314,3 +346,5 @@ button:hover{
   font-size: 1.5rem;
   background: rgb(245, 245, 245) ;
 }
+
+
