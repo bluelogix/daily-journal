@@ -1,1 +1,3 @@
-# daily-journal
+# Daily-Journal
+
+https://newjourney.netlify.com/
