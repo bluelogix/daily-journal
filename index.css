@@ -196,6 +196,7 @@ p {
 .top-stuff {
   color: rgb(255, 157, 157);
   text-align: center;
+  font-size: 3rem;
 }
 .top-stuff p{
   padding: 2rem 0;
@@ -276,6 +277,7 @@ width: 90px;
    background-image: linear-gradient( #ffffff, #fdf9f9 );
     width: 100%;
   padding: 5rem;
+  font-size: 3rem;
 }
 
 .bottom h1, p{
@@ -322,9 +324,13 @@ border-radius: 4%
   padding: 6rem;
   text-align: center;
   background-image: linear-gradient( #ffffff, #fdf9f9 );
+  font-size: 3rem;
 }
 .signup h1,p{
   padding-bottom: 1.5rem;
+}
+.signup p  {
+  padding-bottom: 2rem;
 }
 .signup button{
   font-size: 4rem;
