@@ -6,7 +6,7 @@
       padding: 3px 1px;
     }
     .toggle-menu a{
-      display: none;
+      display: inline-block;
     }
 
     .top {
