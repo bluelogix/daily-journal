@@ -1,12 +1,12 @@
 /* MEDIA QUERIES */
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
 
     .menu a {
       padding: 3px 1px;
     }
     .toggle-menu a{
-      display: inline-block;
+      flex-wrap: nowrap;
     }
 
     .top {
