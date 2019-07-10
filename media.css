@@ -155,13 +155,20 @@ body {
 
 @media (max-width: 500px) {
     .menu a {
-      padding: 5px;
+      padding: .3rem;
     }
 
     .top {
         background-image: linear-gradient(to bottom right, #f4f0ff  ,  #ffdbd9);
         border-bottom-left-radius:17%;
         border-bottom-right-radius:17%;
+    }
+    .pic {
+     display: none;
+    }
+    .pic2 {
+      margin: auto;
+      display: inline-block;
     }
     .top-stuff h1{
       padding-top: 2.2rem;
