@@ -1,9 +1,8 @@
 /* MEDIA QUERIES */
 
-
 @media (max-width: 500px) {
     .menu a {
-      padding: .3rem;
+      padding: 3px 2px;
     }
 
     .top {
@@ -14,10 +13,10 @@
     .pic {
      display: none;
     }
-    .pic2 {
+    /* .pic2 {
       margin: auto;
       display: inline-block;
-    }
+    } */
     .top-stuff h1{
       padding-top: 2.2rem;
     }
