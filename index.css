@@ -201,6 +201,7 @@ p {
 }
 .top-stuff p{
   padding: 2rem 0;
+  font-family: 'Raleway Dots', cursive;
 }
 .dev-img {
   display: flex;
@@ -222,7 +223,7 @@ p {
   /* background-image: linear-gradient(to bottom right, #faf2f2  ,  #ffffff); */
   display: flex;
   justify-content: center;
-  padding: 7.5rem;
+  padding: 5.5rem;
   flex-direction: row;
   /* background: #f5f5f5; */
 }
@@ -239,7 +240,7 @@ width: 90px;
  width: 125px;
 }
 .top-about h2 {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 .top-about:hover {
   transform: scale(1.26);
@@ -249,16 +250,24 @@ width: 90px;
 
 /* Bottom */
 .bottom {
-   background-image: linear-gradient( #ffffff, #f5f5f5 );
-    width: 100%;
+  background-image: linear-gradient( #ffffff,#ededed );
+  /* background: rgb(189, 189, 189); */
+  width: 100%;
   padding: 6rem;
   font-size: 2.5rem;
+  text-align: center;
+
+}
+.bottom h1 {
+  padding-bottom: 1rem;
 }
 
 .bottom  p{
-  /* text-align: center; */
+  text-align: center;
   padding: 1rem 0;
   font-size: 2rem;
+  line-height: 2.3rem;
+  text-align: center;
 }
 
 
@@ -279,7 +288,7 @@ width: 90px;
 }
 .tst {
   justify-content: space-evenly;
-  padding: 6rem;
+  padding: 4rem;
   flex-direction: row;
   text-align: center;
 }
@@ -298,7 +307,7 @@ border-radius: 4%
 .signup {
   display:flex;
   flex-direction: column;
-  padding: 6rem;
+  padding: 5rem;
   text-align: center;
   background-image: linear-gradient( #ffffff, #fdf9f9 );
   font-size: 3rem;
@@ -311,16 +320,16 @@ border-radius: 4%
   padding-bottom: 2rem;
 }
 .signup button{
-  font-size: 4rem;
+  font-size: 3rem;
   border: 2px solid gray; 
- border-radius: 5px;
+ border-radius: 13px;
   outline: none;
   background:#fdf9f9;
   color: black
 }
 button:hover{
-  color: rgb(128, 97, 123);
-  /* background: rgb(128, 97, 123) */
+  /* color: white; */
+  background: rgba(99, 69, 94, 0.495)
 }
 
 /* Footer */
